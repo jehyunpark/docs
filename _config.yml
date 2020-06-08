@@ -16,7 +16,7 @@
 title: jehyunpark's docs
 description: !!!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jehyunpark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jehyunpark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
@@ -60,4 +60,4 @@ compress_html:
   blanklines: false
   profile: false
 
-theme: "just-the-docs"
+remote_theme: pmarsceill/just-the-docs
